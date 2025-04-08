@@ -36,7 +36,6 @@ window.getAdBlockSelectors = async function () {
         ? userRules
         : [...(window.DEFAULT_AD_SELECTORS || []), ...userRules];
 
-      console.log("***********", selectors)
       resolve(selectors);
     });
   });
