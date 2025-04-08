@@ -14,15 +14,18 @@ window.DEFAULT_AD_SELECTORS = [
   ".banner-ad",
   ".sponsored",
   ".sponsor",
+  ".adsbygoogle",
   "#ad",
   "#ads",
   "#ad-banner",
   "#ad-container",
   "#sponsored",
+  '[id*=aswift_]',
   'iframe[src*="ads"]',
   'iframe[src*="doubleclick"]',
   'iframe[src*="googlesyndication"]',
-  'iframe[src*="adservice"]'
+  'iframe[src*="adservice"]',
+  '[type="application/x-shockwave-flash"]',
 ];
 
 window.getAdBlockSelectors = async function () {
