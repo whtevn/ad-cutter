@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "My Custom Ad Blocker",
+  "name": "AdCutter",
   "version": "1.0",
   "description": "Blocks elements using per-site CSS selectors",
   "permissions": ["storage", "scripting", "activeTab"],
