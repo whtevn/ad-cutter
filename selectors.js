@@ -15,6 +15,7 @@ window.DEFAULT_AD_SELECTORS = [
   ".sponsored",
   ".sponsor",
   ".adsbygoogle",
+  ".adContainer",
   "#ad",
   "#ads",
   "#ad-banner",
@@ -25,7 +26,10 @@ window.DEFAULT_AD_SELECTORS = [
   'iframe[src*="doubleclick"]',
   'iframe[src*="googlesyndication"]',
   'iframe[src*="adservice"]',
+  'iframe[src*="dianomi"]',
   '[type="application/x-shockwave-flash"]',
+  '[class*="ad-slot"]',
+  '[class*="dianomi"]',
 ];
 
 window.getAdBlockSelectors = async function () {
